@@ -1,0 +1,32 @@
+{
+  "name": "netrisse-lib",
+  "version": "2.0.0",
+  "description": "shared library for netrisse client and server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint . && node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/netrisse/netrisse-lib.git"
+  },
+  "keywords": [
+    "netris",
+    "netrisse"
+  ],
+  "author": "Chris de Almeida",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/netrisse/netrisse-lib/issues"
+  },
+  "homepage": "https://github.com/netrisse/netrisse-lib#readme",
+  "dependencies": {
+    "eslint-config-ultra-mega": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src"
+  ]
+}
