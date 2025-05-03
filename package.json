@@ -4,7 +4,9 @@
   "description": "shared library for netrisse client and server",
   "main": "src/index.js",
   "scripts": {
-    "test": "eslint . && node test/test.js"
+    "circles": "madge --extensions js --circular src",
+    "lint": "eslint .",
+    "test": "npm run lint && npm run circles && node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "src"
   ],
   "devDependencies": {
-    "eslint": "^9.26.0"
+    "eslint": "^9.26.0",
+    "madge": "^8.0.0"
   }
 }
