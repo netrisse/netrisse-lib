@@ -12,7 +12,8 @@
   },
   "keywords": [
     "netris",
-    "netrisse"
+    "netrisse",
+    "tetris"
   ],
   "author": "Chris de Almeida",
   "license": "GPL-3.0-or-later",
@@ -28,5 +29,8 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^9.26.0"
+  }
 }

@@ -8,4 +8,6 @@ module.exports = Object.freeze({
   QUIT: 6,
   SEED: 7,
   UNPAUSE: 8,
+  CHAT: 9,
+  START: 10,
 });
