@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/netrisse/netrisse-lib#readme",
   "dependencies": {
-    "eslint-config-ultra-mega": "^1.2.0"
+    "eslint-config-ultra-mega": "^2.1.0"
   },
   "engines": {
     "node": ">=18"
@@ -33,7 +33,7 @@
     "src"
   ],
   "devDependencies": {
-    "eslint": "^9.26.0",
+    "eslint": "^9.39.2",
     "madge": "^8.0.0"
   }
 }
